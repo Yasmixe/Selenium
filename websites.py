@@ -7,6 +7,7 @@ import PyPDF2
 from PyPDF2 import PdfFileMerger, PdfFileReader, PdfFileWriter
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
 
 # initialiser le driver
 s = Service("C:/Users/NITRO 5/Desktop/CrewAi/chromedriver.exe")
